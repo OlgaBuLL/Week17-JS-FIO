@@ -1,0 +1,78 @@
+body {
+  background: rgb(50, 49, 49);
+  color: white;
+  text-align: center;
+  font-family: Roboto;
+  font-size: larger;
+  letter-spacing: 0.06rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1 {
+  color: greenyellow;
+  font-weight: lighter;
+  margin-bottom: 4rem;
+}
+h1:hover {
+  text-shadow: 1px -1px 10px white;
+}
+p {
+  font-weight: lighter;
+}
+.userData {
+  margin-left: 4.5rem;
+}
+.array,
+label {
+  color: greenyellow;
+}
+.label {
+  margin-right: 2rem;
+}
+input {
+  width: 400px;
+  height: 3rem;
+  text-align: center;
+  border: 2px solid rgb(125, 137, 107);
+  box-shadow: 0 0 15px 4px rgb(169, 249, 48, 10%);
+  border-radius: 8px;
+  font-size: large;
+}
+input:hover {
+  transform: scale(1.01);
+}
+
+.transformedData {
+  margin-right: 10.5rem;
+}
+
+.transformed {
+  margin: 1rem auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#firstname,
+#lastname,
+#patronymic {
+  font-weight: bold;
+}
+
+button {
+  margin: 1rem auto 2rem;
+  cursor: pointer;
+  border: none;
+  background: black;
+  color: white;
+  font-size: large;
+  border-radius: 8px;
+  padding: 1rem 2rem;
+}
+
+button:hover {
+  background: greenyellow;
+  border: none;
+  color: black;
+}

@@ -5,33 +5,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fio.css">
     <title>ФИО</title>
 </head>
 
 <body>
-    <h1>Преобразование ФИО</h1>
+    <h1>NAME TRANSFORMATION</h1>
     <p>Please, enter your Lastname, Firstname and Middle name in the field below</p>
-    <label for="userinput">Enter here &rarr;</label>
-    <input type="text" id="userinput" placeholder="Lastname Firstname Middle name">
+    <div class="userData"><input type="text" id="userinput" placeholder="Lastname, Firstname, Middle name">
+        <button class="clearData"> X </button></div>
 
-    <br>
+
     <p class="array"></p>
-    <br>
+
     <button class="result" id="transform" onclick="transformUsername()">TRANSFORM</button>
-    <br>
 
-    <br>
-    <label for="firstname">Firstname</label>
-    <input type="text" id="firstname">
 
-    <br>
-    <label for="lastname">Lastname</label>
-    <input type="text" id="lastname">
+    <div class="transformedData">
+        <div class="transformed">
+            <label class="label" for="firstname">FIRSTNAME</label>
+            <input type="text" id="firstname">
+        </div>
 
-    <br>
-    <label for="patronymic">Middle name</label>
-    <input type="text" id="patronymic">
+        <div class="transformed">
+            <label class="label" for="lastname">LASTNAME</label>
+            <input type="text" id="lastname">
+        </div>
 
+        <div class="transformed">
+            <label class="label" for="patronymic">MIDDLE NAME</label>
+            <input type="text" id="patronymic">
+        </div>
+    </div>
 
     <script src="fio.js"></script>
 </body>
